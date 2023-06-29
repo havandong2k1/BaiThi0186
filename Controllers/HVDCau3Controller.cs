@@ -6,12 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BaiThi0186.Models;
+// using BaiThi0186.Models.Process;
 using MvcMovie.Data;
 
 namespace BaiThi0186.Controllers
 {
     public class HVDCau3Controller : Controller
-    {
+    {    
         private readonly MvcMovieContext _context;
 
         public HVDCau3Controller(MvcMovieContext context)
